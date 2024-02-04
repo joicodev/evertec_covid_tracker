@@ -47,9 +47,7 @@ class SplashPage extends GetViewBasePage<MainController> {
             height: 30,
             child: LiquidLinearProgressIndicator(
               value: controller.loadingValue,
-              valueColor: AlwaysStoppedAnimation(
-                AppTheme.colors.generalPrimary,
-              ),
+              valueColor: AlwaysStoppedAnimation(AppTheme.colors.secondary),
               backgroundColor: Colors.white,
               borderColor: Colors.black,
               borderWidth: 3.0,

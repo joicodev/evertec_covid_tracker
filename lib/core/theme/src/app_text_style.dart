@@ -77,7 +77,7 @@ class AppStyle {
   TextStyle contentCaptions = TextStyle(
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w400,
-    fontSize: fontSize.f10,
+    fontSize: fontSize.f12,
   );
 
   /// Content/Paragraph/Regular
@@ -99,13 +99,6 @@ class AppStyle {
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w400,
     fontSize: fontSize.f14,
-  );
-
-  /// Chips
-  TextStyle generalOrChip = TextStyle(
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w600,
-    fontSize: fontSize.f12,
   );
 
   /*TextStyle custom = TextStyle(

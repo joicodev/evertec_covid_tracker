@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "John",
+      "last_name": "Doe",
+      "id": "123456789",
+      "document_type": "ID_CARD",
+      "age": 30,
+      "password": "password123"
+    },
+    {
+      "name": "Jane",
+      "last_name": "Smith",
+      "id": "987654321",
+      "document_type": "PASSPORT",
+      "age": 25,
+      "password": "secure456"
+    },
+    {
+      "name": "John",
+      "last_name": "Doe",
+      "id": "123987",
+      "document_type": "DRIVERS_LICENSE",
+      "age": 35,
+      "password": "evertec2024"
+    }
+  ]
+}

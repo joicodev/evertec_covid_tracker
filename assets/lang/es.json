@@ -1,3 +1,8 @@
 {
-  "LOADING": "Loading..."
+  "LOADING": "Cargando...",
+  "WELCOME_TO": "Bienvenido a:",
+  "APP_NAME": "Evertec",
+  "DOCUMENT_TYPE": "Tipo documento",
+  "DOCUMENT_NUMBER": "Número de documento",
+  "PASSWORD": "Contraseña"
 }

@@ -79,7 +79,7 @@ class AppScaffold extends StatelessWidget {
       return DoubleBackToCloseApp(
         snackBar: SnackBar(
           duration: const Duration(milliseconds: 1500),
-          backgroundColor: AppTheme.colors.generalPrimary,
+          backgroundColor: AppTheme.colors.primary,
           content: Text(
             textDoubleBackToCloseApp!,
             style: AppTheme.style.contentParagraphRegular.copyWith(
