@@ -4,5 +4,6 @@
   "APP_NAME": "Evertec",
   "DOCUMENT_TYPE": "Document type",
   "DOCUMENT_NUMBER": "Document number",
-  "PASSWORD": "Password"
+  "PASSWORD": "Password",
+  "LOGIN": "Login"
 }

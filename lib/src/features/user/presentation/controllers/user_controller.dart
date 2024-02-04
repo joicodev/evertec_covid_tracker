@@ -7,7 +7,11 @@ class UserController extends GetxBaseController {
   final Rxn<UserModel> _userModel = Rxn();
   final Rx<UserFormModel> _userForm = Rx(UserFormModel());
 
-  Future<void> login() async {}
+  Future<void> login() async {
+    if (userForm.formKey.currentState!.validate()) {
+      print('validated...');
+    }
+  }
 
   Future<void> logout() async {
     _userModel(null);

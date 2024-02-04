@@ -28,7 +28,7 @@ class LoginHeaderWidget extends StatelessWidget {
               ),
             ).paddingLeft(10),
           ],
-        ).paddingAll(8)
+        ).paddingSymmetric(horizontal: 8, vertical: 2)
       ],
     );
   }
