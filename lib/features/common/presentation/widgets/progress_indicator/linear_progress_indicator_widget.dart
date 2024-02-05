@@ -1,4 +1,4 @@
-import 'package:evertec_covid_tracker/src/common/presentation/widgets/progress_indicator/wave.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/widgets/progress_indicator/wave.dart';
 import 'package:flutter/material.dart';
 
 class LinearProgressIndicatorWidget extends ProgressIndicator {

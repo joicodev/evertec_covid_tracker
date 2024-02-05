@@ -6,7 +6,7 @@
       "id": "123456789",
       "document_type": "ID_CARD",
       "age": 30,
-      "password": "password123"
+      "password": "Password123"
     },
     {
       "name": "Jane",
@@ -14,7 +14,7 @@
       "id": "987654321",
       "document_type": "PASSPORT",
       "age": 25,
-      "password": "secure456"
+      "password": "Secure456"
     },
     {
       "name": "John",
@@ -22,7 +22,7 @@
       "id": "123987",
       "document_type": "DRIVERS_LICENSE",
       "age": 35,
-      "password": "evertec2024"
+      "password": "Evertec2024"
     }
   ]
 }

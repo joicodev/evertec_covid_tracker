@@ -1,6 +1,6 @@
-import 'package:evertec_covid_tracker/src/features/user/presentation/controllers/user_binding.dart';
-import 'package:evertec_covid_tracker/src/features/user/presentation/pages/login_page.dart';
-import 'package:evertec_covid_tracker/src/splash_page.dart';
+import 'package:evertec_covid_tracker/features/user/presentation/controllers/user_binding.dart';
+import 'package:evertec_covid_tracker/features/user/presentation/pages/login_page.dart';
+import 'package:evertec_covid_tracker/features/splash_page.dart';
 import 'package:get/get.dart';
 
 import 'routes_path.dart';

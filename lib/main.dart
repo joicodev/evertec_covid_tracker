@@ -1,4 +1,5 @@
-import 'package:evertec_covid_tracker/src/common/controllers/main_binding.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/controllers/main_binding.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/controllers/main_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -20,13 +21,14 @@ void main() async {
   runApp(const EvertecCovidTrackerApp());
 }
 
-class EvertecCovidTrackerApp extends StatelessWidget {
+class EvertecCovidTrackerApp extends GetView<MainController> {
   const EvertecCovidTrackerApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Evertec Covid Tracker',
+      themeMode: controller.themeMode,
       theme: ThemeData(useMaterial3: true),
       debugShowCheckedModeBanner: false,
       builder: EasyLoading.init(),

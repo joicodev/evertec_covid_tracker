@@ -1,14 +1,14 @@
 import 'package:evertec_covid_tracker/core/config/images.dart';
 import 'package:evertec_covid_tracker/core/theme/app_theme.dart';
-import 'package:evertec_covid_tracker/src/common/presentation/widgets/app_scaffold.dart';
-import 'package:evertec_covid_tracker/src/common/presentation/widgets/base_pages_widget.dart';
-import 'package:evertec_covid_tracker/src/common/presentation/widgets/buttons/src/app_base_social_button.dart';
-import 'package:evertec_covid_tracker/src/common/presentation/widgets/buttons/src/primary_button.dart';
-import 'package:evertec_covid_tracker/src/common/presentation/widgets/buttons/src/secondary_button.dart';
-import 'package:evertec_covid_tracker/src/common/presentation/widgets/custom_scroll_view.dart';
-import 'package:evertec_covid_tracker/src/features/user/presentation/controllers/user_controller.dart';
-import 'package:evertec_covid_tracker/src/features/user/presentation/widgets/login_form_widget.dart';
-import 'package:evertec_covid_tracker/src/features/user/presentation/widgets/login_header_widget.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/widgets/app_scaffold.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/widgets/base_pages_widget.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/widgets/buttons/src/app_base_social_button.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/widgets/buttons/src/primary_button.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/widgets/buttons/src/secondary_button.dart';
+import 'package:evertec_covid_tracker/features/common/presentation/widgets/custom_scroll_view.dart';
+import 'package:evertec_covid_tracker/features/user/presentation/controllers/user_controller.dart';
+import 'package:evertec_covid_tracker/features/user/presentation/widgets/login_form_widget.dart';
+import 'package:evertec_covid_tracker/features/user/presentation/widgets/login_header_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
