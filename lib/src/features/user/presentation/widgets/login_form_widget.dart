@@ -1,6 +1,6 @@
 import 'package:evertec_covid_tracker/core/theme/app_theme.dart';
 import 'package:evertec_covid_tracker/src/common/presentation/widgets/base_pages_widget.dart';
-import 'package:evertec_covid_tracker/src/common/presentation/widgets/inputs/text_form_field_widget.dart';
+import 'package:evertec_covid_tracker/src/common/presentation/widgets/inputs/app_inputs.dart';
 import 'package:evertec_covid_tracker/src/common/presentation/widgets/inputs/utils/app_input_parameters.dart';
 import 'package:evertec_covid_tracker/src/common/presentation/widgets/inputs/utils/app_input_utils.dart';
 import 'package:evertec_covid_tracker/src/features/user/presentation/controllers/user_controller.dart';
@@ -18,7 +18,7 @@ class LoginFormWidget extends GetViewBasePage<UserController> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           TextFormFieldWidget(
-            parameters: AppInputParameters(
+            inputParameters: AppInputParameters(
               isRequired: true,
               label: "${'DOCUMENT_TYPE'.tr}:",
               controller: controller.userForm.documentTypeController,
@@ -26,7 +26,7 @@ class LoginFormWidget extends GetViewBasePage<UserController> {
           ),
           heightSpace20,
           TextFormFieldWidget(
-            parameters: AppInputParameters(
+            inputParameters: AppInputParameters(
               isRequired: true,
               label: "${'DOCUMENT_NUMBER'.tr}:",
               controller: controller.userForm.documentNumberController,
@@ -34,8 +34,10 @@ class LoginFormWidget extends GetViewBasePage<UserController> {
           ),
           heightSpace20,
           TextFormFieldWidget(
-            parameters: AppInputParameters(
+            inputParameters: AppInputParameters(
               isRequired: true,
+              obscureText: true,
+              showEyeIcon: true,
               label: "${'PASSWORD'.tr}:",
               inputType: AppInputType.password,
               controller: controller.userForm.passwordController,

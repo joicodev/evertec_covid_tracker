@@ -1,9 +1,16 @@
 {
-  "LOADING": "Cargando...",
-  "WELCOME_TO": "Bienvenido a:",
+  "LOADING": "Loading...",
+  "WELCOME_TO": "Welcome to:",
   "APP_NAME": "Evertec",
   "DOCUMENT_TYPE": "Document type",
   "DOCUMENT_NUMBER": "Document number",
   "PASSWORD": "Password",
-  "LOGIN": "Login"
+  "LOGIN": "Login",
+  "FIELD_IS_REQUIRED": "This field is required",
+  "INVALID_EMAIL_ADDRESS": "Invalid email address",
+  "INVALID_PHONE_NUMBER": "Invalid phone number",
+  "PASSWORD_MUST_BE_LEAST_X_CHARACTERS": "The password must be at least @num characters.",
+  "PASSWORD_MUST_CONTAIN_AT_LEAST_LOWERCASE": "The password must contain at least one lowercase letter.",
+  "PASSWORD_MUST_CONTAIN_AT_LEAST_CAPITAL": "The password must contain at least one capital letter.",
+  "REGISTER_USER": "Register user"
 }

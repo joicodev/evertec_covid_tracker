@@ -1,3 +1,5 @@
+import 'package:get/get.dart';
+
 import 'app_input_parameters.dart';
 import 'app_input_utils.dart';
 
@@ -9,16 +11,16 @@ class AppInputValidations {
         return null;
       }
 
-      return "This field is required";
+      return "FIELD_IS_REQUIRED".tr;
     }
 
     switch (parameters.inputType) {
       case AppInputType.email:
         final isValid = emailAddress(value);
-        return isValid ? null : "Invalid email address";
+        return isValid ? null : "INVALID_EMAIL_ADDRESS".tr;
       case AppInputType.phone:
         final isValid = numberPhone(value);
-        return isValid ? null : "Invalid phone number";
+        return isValid ? null : "INVALID_PHONE_NUMBER".tr;
       case AppInputType.password:
         final passwordValidation = password(value);
         if (passwordValidation != null) {
@@ -41,19 +43,19 @@ class AppInputValidations {
     // Check if it has at least 6 characters
     RegExp regExp1 = RegExp(r'^.{6,}$');
     if (!regExp1.hasMatch(password)) {
-      return 'The password must be at least 6 characters.';
+      return "PASSWORD_MUST_BE_LEAST_X_CHARACTERS".trParams({"num": "6"});
     }
 
     // Check if it has at least one lowercase letter
     RegExp regExp2 = RegExp(r'^(?=.*[a-z])');
     if (!regExp2.hasMatch(password)) {
-      return 'The password must contain at least one lowercase letter.';
+      return 'PASSWORD_MUST_CONTAIN_AT_LEAST_LOWERCASE'.tr;
     }
 
     // Check if it has at least one capital letter
     RegExp regExp3 = RegExp(r'^(?=.*[A-Z])');
     if (!regExp3.hasMatch(password)) {
-      return 'The password must contain at least one capital letter.';
+      return 'PASSWORD_MUST_CONTAIN_AT_LEAST_CAPITAL'.tr;
     }
 
     return null;

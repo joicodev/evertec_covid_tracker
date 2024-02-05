@@ -5,5 +5,12 @@
   "DOCUMENT_TYPE": "Tipo documento",
   "DOCUMENT_NUMBER": "Número de documento",
   "PASSWORD": "Contraseña",
-  "LOGIN": "Ingresar"
+  "LOGIN": "Ingresar",
+  "FIELD_IS_REQUIRED": "Campo requerido",
+  "INVALID_EMAIL_ADDRESS": "Correo electrónico no válido",
+  "INVALID_PHONE_NUMBER": "Numero de telefono invalido",
+  "PASSWORD_MUST_BE_LEAST_X_CHARACTERS": "La contraseña debe tener al menos @num caracteres.",
+  "PASSWORD_MUST_CONTAIN_AT_LEAST_LOWERCASE": "La contraseña debe contener al menos una letra minúscula.",
+  "PASSWORD_MUST_CONTAIN_AT_LEAST_CAPITAL": "La contraseña debe contener al menos una letra mayúscula.",
+  "REGISTER_USER": "Registrar usuario"
 }

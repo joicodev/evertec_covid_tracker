@@ -33,10 +33,10 @@ class AppInputParameters {
   final bool isEnabled;
   final String counterText;
   final TextCapitalization textCapitalization;
+  final bool onTapOutside;
 
   AppInputParameters({
     Key? key,
-    //required this.theme,
     this.label = "",
     this.textCapitalization = TextCapitalization.words,
     this.hintText = "",
@@ -65,6 +65,7 @@ class AppInputParameters {
     this.isEnabled = true,
     this.counterText = '',
     this.autoValidateMode = AutovalidateMode.onUserInteraction,
+    this.onTapOutside = true,
     InputDecoration? decoration,
     TextEditingController? controller,
   })  : decoration = decoration ?? const InputDecoration(),
@@ -105,6 +106,7 @@ class AppInputParameters {
     bool? isEnabled,
     String? counterText,
     TextCapitalization? textCapitalization,
+    bool? onTapOutside,
   }) {
     return AppInputParameters(
       style: style,
@@ -119,7 +121,6 @@ class AppInputParameters {
       globalKey: globalKey ?? this.globalKey,
       onSubmitted: onSubmitted,
       keyboardType: keyboardType ?? this.keyboardType,
-      //theme: theme ?? this.theme,
       obscureText: obscureText ?? this.obscureText,
       enableBorder: enableBorder ?? this.enableBorder,
       isRequired: isRequired ?? this.isRequired,
@@ -138,6 +139,7 @@ class AppInputParameters {
       autoValidateMode: autoValidateMode ?? this.autoValidateMode,
       onChanged: onChanged ?? this.onChanged,
       disposeController: disposeController ?? this.disposeController,
+      onTapOutside: onTapOutside ?? this.onTapOutside,
     );
   }
 }
