@@ -1,7 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:evertec_covid_tracker/core/config/images.dart';
 import 'package:evertec_covid_tracker/core/theme/app_theme.dart';
-import 'package:evertec_covid_tracker/features/common/presentation/extensions/padding_extension.dart';
+import 'package:evertec_covid_tracker/features/common/domain/extensions/padding_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:liquid_progress_indicator_v2/liquid_progress_indicator.dart';
